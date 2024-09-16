@@ -1,0 +1,180 @@
+{
+  "nodes": [
+    {
+      "id": "9f2cee31d8b9650d",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -150,
+      "y": 0,
+      "width": 670,
+      "height": 540,
+      "color": "2",
+      "label": "Injeção de dependências"
+    },
+    {
+      "id": "395d61a788cf2e93",
+      "type": "text",
+      "text": "Real Object",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 120,
+      "y": 309,
+      "width": 120,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "6ad0f49a8f5ed0cc",
+      "type": "text",
+      "text": "APP",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "x": 0,
+      "y": 160,
+      "width": 100,
+      "height": 91,
+      "color": "5"
+    },
+    {
+      "id": "88f9ce668534bd50",
+      "type": "text",
+      "text": "Interface",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 0,
+      "y": 429,
+      "width": 120,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "60d2cc80412184b7",
+      "type": "text",
+      "text": "Interface",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 240,
+      "y": 429,
+      "width": 120,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "94e7a0714dd874f8",
+      "type": "text",
+      "text": "Container",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "x": 240,
+      "y": 160,
+      "width": 100,
+      "height": 91,
+      "color": "4"
+    },
+    {
+      "id": "b210b568193ec524",
+      "type": "text",
+      "text": "Real Object",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 340,
+      "y": 309,
+      "width": 120,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "292e77fd063306cf",
+      "type": "text",
+      "text": "[[Spring Framework]]",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -110,
+      "y": 40,
+      "width": 160,
+      "height": 60
+    },
+    {
+      "id": "2294bff4caa125af",
+      "type": "text",
+      "text": "[[Java básico - Notas iniciais]]",
+      "styleAttributes": {},
+      "x": -120,
+      "y": 620,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1f22fa4b5b84dbd",
+      "styleAttributes": {},
+      "fromNode": "6ad0f49a8f5ed0cc",
+      "fromSide": "left",
+      "toNode": "88f9ce668534bd50",
+      "toSide": "left",
+      "color": "#ffffff"
+    },
+    {
+      "id": "ce304c721da6811b",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "94e7a0714dd874f8",
+      "fromSide": "bottom",
+      "toNode": "395d61a788cf2e93",
+      "toSide": "top",
+      "color": "#ffffff"
+    },
+    {
+      "id": "9c13a5d867f94463",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "94e7a0714dd874f8",
+      "fromSide": "bottom",
+      "toNode": "b210b568193ec524",
+      "toSide": "top",
+      "color": "#ffffff"
+    },
+    {
+      "id": "89dd0e0e6871136a",
+      "styleAttributes": {},
+      "fromNode": "395d61a788cf2e93",
+      "fromSide": "left",
+      "toNode": "88f9ce668534bd50",
+      "toSide": "top",
+      "color": "#ffffff"
+    },
+    {
+      "id": "08d0296a343e504e",
+      "styleAttributes": {},
+      "fromNode": "b210b568193ec524",
+      "fromSide": "left",
+      "toNode": "60d2cc80412184b7",
+      "toSide": "top",
+      "color": "#ffffff"
+    },
+    {
+      "id": "9e0d093ae9ddb83b",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "6ad0f49a8f5ed0cc",
+      "fromSide": "right",
+      "toNode": "94e7a0714dd874f8",
+      "toSide": "left",
+      "color": "#ffffff"
+    }
+  ],
+  "metadata": {}
+}

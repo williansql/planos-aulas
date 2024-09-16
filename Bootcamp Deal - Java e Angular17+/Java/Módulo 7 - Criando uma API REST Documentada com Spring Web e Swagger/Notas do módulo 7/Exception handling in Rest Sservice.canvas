@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "6521e150249516f3",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -320,
+      "y": -380,
+      "width": 1240,
+      "height": 580,
+      "color": "2",
+      "label": "Exception handling in Rest service"
+    },
+    {
+      "id": "52e5bed8b45a1ac4",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 520,
+      "y": -260,
+      "width": 300,
+      "height": 380,
+      "color": "6",
+      "label": "REST SERVICE"
+    },
+    {
+      "id": "768112648fcd2eb5",
+      "type": "text",
+      "text": "REST CLIENTE",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -240,
+      "y": -185,
+      "width": 260,
+      "height": 200,
+      "color": "4"
+    },
+    {
+      "id": "fa34d09c71fd87b0",
+      "type": "text",
+      "text": "/api/user/102",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 120,
+      "y": -245,
+      "width": 260,
+      "height": 60,
+      "color": "5"
+    },
+    {
+      "id": "ae94f3e887d15a2c",
+      "type": "text",
+      "text": "{\n\t\"status\": \"404\",\n\t\"message\":  \"invalid user id\"\n}",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "x": 120,
+      "y": 15,
+      "width": 260,
+      "height": 128,
+      "color": "1"
+    },
+    {
+      "id": "b3356061a5da6143",
+      "type": "text",
+      "text": "REST CONTROLLER CODE",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 580,
+      "y": -185,
+      "width": 200,
+      "height": 50,
+      "color": "#ffffff"
+    },
+    {
+      "id": "3c258d382c813594",
+      "type": "text",
+      "text": "@ExceptionHandler\nExceptionHandler",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 560,
+      "y": -20,
+      "width": 240,
+      "height": 99,
+      "color": "#ffffff"
+    },
+    {
+      "id": "0507cdecdff7ea89",
+      "type": "text",
+      "text": "[[Habilitando o tratamento de excessões de negócio com handlers]]",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -280,
+      "y": -360,
+      "width": 530,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "10fc632d68ff043f",
+      "styleAttributes": {},
+      "fromNode": "b3356061a5da6143",
+      "fromSide": "bottom",
+      "toNode": "3c258d382c813594",
+      "toSide": "top",
+      "color": "1",
+      "label": "Exception thrown"
+    },
+    {
+      "id": "db7b305963b72d79",
+      "styleAttributes": {},
+      "fromNode": "768112648fcd2eb5",
+      "fromSide": "top",
+      "toNode": "fa34d09c71fd87b0",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "63ef0e27fca96538",
+      "styleAttributes": {},
+      "fromNode": "fa34d09c71fd87b0",
+      "fromSide": "right",
+      "toNode": "b3356061a5da6143",
+      "toSide": "left",
+      "color": "5"
+    },
+    {
+      "id": "bdb451702849b85f",
+      "styleAttributes": {},
+      "fromNode": "3c258d382c813594",
+      "fromSide": "left",
+      "toNode": "ae94f3e887d15a2c",
+      "toSide": "right",
+      "color": "1"
+    },
+    {
+      "id": "617ed5167534e8b0",
+      "styleAttributes": {},
+      "fromNode": "ae94f3e887d15a2c",
+      "fromSide": "left",
+      "toNode": "768112648fcd2eb5",
+      "toSide": "bottom",
+      "color": "1"
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "39c1a8981abe3724",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -380,
+      "y": -360,
+      "width": 920,
+      "height": 660,
+      "color": "1",
+      "label": "Com IoC"
+    },
+    {
+      "id": "424095f46492235c",
+      "type": "text",
+      "text": "Deixa comigo",
+      "styleAttributes": {
+        "shape": "pill",
+        "textAlign": "center",
+        "border": "dotted"
+      },
+      "x": 250,
+      "y": -200,
+      "width": 180,
+      "height": 60,
+      "color": "1"
+    },
+    {
+      "id": "1f2c534b96a6ff7e",
+      "type": "text",
+      "text": "Container",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "x": 20,
+      "y": -180,
+      "width": 140,
+      "height": 80,
+      "color": "4"
+    },
+    {
+      "id": "dc7036bd8b0eb412",
+      "type": "text",
+      "text": "APP",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "x": -200,
+      "y": -180,
+      "width": 140,
+      "height": 80,
+      "color": "5"
+    },
+    {
+      "id": "7061f08a608f994c",
+      "type": "text",
+      "text": "Create Object",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -110,
+      "y": 0,
+      "width": 180,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "c006e3bc2f10dcbe",
+      "type": "text",
+      "text": "Create Object",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 160,
+      "y": 0,
+      "width": 180,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "5a81ae22b51124a7",
+      "type": "text",
+      "text": "Use Object",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -200,
+      "y": 120,
+      "width": 180,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "45c08550f623b93a",
+      "type": "text",
+      "text": "Use Object",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 70,
+      "y": 120,
+      "width": 180,
+      "height": 60,
+      "color": "6"
+    },
+    {
+      "id": "4157f472d84b8fbd",
+      "type": "text",
+      "text": "[[Spring Framework]]",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -240,
+      "y": -340,
+      "width": 220,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "fa47727161045748",
+      "styleAttributes": {},
+      "fromNode": "424095f46492235c",
+      "fromSide": "left",
+      "toNode": "1f2c534b96a6ff7e",
+      "toSide": "right"
+    },
+    {
+      "id": "b1db8d696cdff43f",
+      "styleAttributes": {
+        "path": "dotted"
+      },
+      "fromNode": "dc7036bd8b0eb412",
+      "fromSide": "right",
+      "toNode": "1f2c534b96a6ff7e",
+      "toSide": "left"
+    },
+    {
+      "id": "0a1bafa6358ed80a",
+      "styleAttributes": {
+        "pathfindingMethod": "square"
+      },
+      "fromNode": "dc7036bd8b0eb412",
+      "fromSide": "left",
+      "toNode": "5a81ae22b51124a7",
+      "toSide": "left"
+    },
+    {
+      "id": "5deb14657745727f",
+      "styleAttributes": {},
+      "fromNode": "5a81ae22b51124a7",
+      "fromSide": "top",
+      "toNode": "7061f08a608f994c",
+      "toSide": "bottom"
+    },
+    {
+      "id": "7462857d83ecd1f1",
+      "styleAttributes": {},
+      "fromNode": "45c08550f623b93a",
+      "fromSide": "top",
+      "toNode": "c006e3bc2f10dcbe",
+      "toSide": "bottom"
+    },
+    {
+      "id": "17354eb643d3dba2",
+      "styleAttributes": {},
+      "fromNode": "1f2c534b96a6ff7e",
+      "fromSide": "bottom",
+      "toNode": "7061f08a608f994c",
+      "toSide": "top"
+    },
+    {
+      "id": "325683d8ab2e705f",
+      "styleAttributes": {},
+      "fromNode": "1f2c534b96a6ff7e",
+      "fromSide": "bottom",
+      "toNode": "c006e3bc2f10dcbe",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

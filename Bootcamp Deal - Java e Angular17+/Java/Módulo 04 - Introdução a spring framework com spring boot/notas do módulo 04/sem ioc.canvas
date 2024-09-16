@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "id": "5770ddd050197a22",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -840,
+      "y": -200,
+      "width": 530,
+      "height": 460,
+      "color": "#0084ff",
+      "label": "Sem ioc"
+    },
+    {
+      "id": "1d978ea37b1ce038",
+      "type": "text",
+      "text": "Use Object",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -805,
+      "y": 170,
+      "width": 170,
+      "height": 60,
+      "color": "#00ffaa"
+    },
+    {
+      "id": "5df8d5ddfa8606f9",
+      "type": "text",
+      "text": "Use Object",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -510,
+      "y": 170,
+      "width": 170,
+      "height": 60,
+      "color": "#00ffaa"
+    },
+    {
+      "id": "0bb3880ee19990d6",
+      "type": "text",
+      "text": "Create Object",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -805,
+      "y": 42,
+      "width": 170,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "48b7a10e33d0adf0",
+      "type": "text",
+      "text": "Create Object",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -510,
+      "y": 42,
+      "width": 170,
+      "height": 60,
+      "color": "3"
+    },
+    {
+      "id": "aea6f2c1f740d419",
+      "type": "text",
+      "text": "APP",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "x": -650,
+      "y": -80,
+      "width": 160,
+      "height": 60,
+      "color": "#00aaff"
+    },
+    {
+      "id": "b613ee2e4c010aa5",
+      "type": "text",
+      "text": "[[Spring Framework]]",
+      "styleAttributes": {},
+      "x": -820,
+      "y": -180,
+      "width": 200,
+      "height": 60
+    }
+  ],
+  "edges": [
+    {
+      "id": "dd58bb027f8c84f0",
+      "styleAttributes": {},
+      "fromNode": "aea6f2c1f740d419",
+      "fromSide": "bottom",
+      "toNode": "0bb3880ee19990d6",
+      "toSide": "top"
+    },
+    {
+      "id": "0145bd21a1470285",
+      "styleAttributes": {},
+      "fromNode": "0bb3880ee19990d6",
+      "fromSide": "bottom",
+      "toNode": "1d978ea37b1ce038",
+      "toSide": "top"
+    },
+    {
+      "id": "bfca38792ff765c2",
+      "styleAttributes": {},
+      "fromNode": "aea6f2c1f740d419",
+      "fromSide": "bottom",
+      "toNode": "48b7a10e33d0adf0",
+      "toSide": "top"
+    },
+    {
+      "id": "c29256631b7b859d",
+      "styleAttributes": {},
+      "fromNode": "48b7a10e33d0adf0",
+      "fromSide": "bottom",
+      "toNode": "5df8d5ddfa8606f9",
+      "toSide": "top"
+    }
+  ],
+  "metadata": {}
+}

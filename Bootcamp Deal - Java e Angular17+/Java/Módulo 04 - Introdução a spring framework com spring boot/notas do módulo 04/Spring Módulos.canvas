@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "id": "65a603a305cedd43",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -360,
+      "y": -280,
+      "width": 800,
+      "height": 820,
+      "label": "Spring Framework Runtime"
+    },
+    {
+      "id": "5909e8bf5d89ada6",
+      "type": "group",
+      "styleAttributes": {
+        "border": "dotted"
+      },
+      "x": -318,
+      "y": -110,
+      "width": 300,
+      "height": 260,
+      "color": "6",
+      "label": "Data access / Integration"
+    },
+    {
+      "id": "6bab880f3b24ff9a",
+      "type": "group",
+      "styleAttributes": {},
+      "x": -318,
+      "y": 300,
+      "width": 716,
+      "height": 100,
+      "color": "4",
+      "label": "Core container"
+    },
+    {
+      "id": "358d70cfbb5cd0f1",
+      "type": "group",
+      "styleAttributes": {},
+      "x": 58,
+      "y": -75,
+      "width": 340,
+      "height": 190,
+      "color": "3",
+      "label": "web - mvc remoting"
+    },
+    {
+      "id": "33dad1d3300789af",
+      "type": "text",
+      "text": "AOP",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -320,
+      "y": 200,
+      "width": 198,
+      "height": 50
+    },
+    {
+      "id": "2ce66dbf61a4c5e4",
+      "type": "text",
+      "text": "JDBC",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -298,
+      "y": -90,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "id": "a58b03357e7d3aa5",
+      "type": "text",
+      "text": "[[Spring Framework]]",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -318,
+      "y": -240,
+      "width": 258,
+      "height": 60
+    },
+    {
+      "id": "8fc069150ae08e61",
+      "type": "text",
+      "text": "ORM",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -143,
+      "y": -90,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "id": "cc0b628577ec56c4",
+      "type": "text",
+      "text": "OXM",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -298,
+      "y": -10,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "id": "fc68c247caa25dba",
+      "type": "text",
+      "text": "Transactions",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -298,
+      "y": 70,
+      "width": 255,
+      "height": 60
+    },
+    {
+      "id": "91d58e22cd9c63b1",
+      "type": "text",
+      "text": "JMS",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -143,
+      "y": -10,
+      "width": 100,
+      "height": 60
+    },
+    {
+      "id": "a10acbcbbfb2d705",
+      "type": "text",
+      "text": "INSTRUMENTATION",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 201,
+      "y": 200,
+      "width": 195,
+      "height": 50
+    },
+    {
+      "id": "59047f33cde52615",
+      "type": "text",
+      "text": "ASPECTS",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -61,
+      "y": 200,
+      "width": 198,
+      "height": 50
+    },
+    {
+      "id": "12965963e09664ab",
+      "type": "text",
+      "text": "STRUTS",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 248,
+      "y": 35,
+      "width": 126,
+      "height": 50
+    },
+    {
+      "id": "580ecf400b8e1974",
+      "type": "text",
+      "text": "SERVLET",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 248,
+      "y": -45,
+      "width": 126,
+      "height": 50
+    },
+    {
+      "id": "477f3204d7044334",
+      "type": "text",
+      "text": "CORE",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -303,
+      "y": 320,
+      "width": 140,
+      "height": 60
+    },
+    {
+      "id": "b528e48386915eaf",
+      "type": "text",
+      "text": "CONTEXT",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -124,
+      "y": 320,
+      "width": 140,
+      "height": 60
+    },
+    {
+      "id": "dd172af7adc33168",
+      "type": "text",
+      "text": "WEB",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 78,
+      "y": -45,
+      "width": 146,
+      "height": 50
+    },
+    {
+      "id": "d9f41225aea929a4",
+      "type": "text",
+      "text": "PORTLET",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 78,
+      "y": 35,
+      "width": 146,
+      "height": 50
+    },
+    {
+      "id": "db7d63263e99adb0",
+      "type": "text",
+      "text": "BEANS",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 55,
+      "y": 320,
+      "width": 140,
+      "height": 60
+    },
+    {
+      "id": "0c04012896069a3e",
+      "type": "text",
+      "text": "TEST",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": -320,
+      "y": 440,
+      "width": 716,
+      "height": 50,
+      "color": "1"
+    },
+    {
+      "id": "1e0dff5d778b224b",
+      "type": "text",
+      "text": "EXPRESSION LANGUAGE",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "x": 242,
+      "y": 320,
+      "width": 140,
+      "height": 60
+    }
+  ],
+  "edges": [],
+  "metadata": {}
+}
